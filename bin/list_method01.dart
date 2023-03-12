@@ -7,11 +7,11 @@
     Returns:
         list: return answer
 */
-List func(List list) {
-  list.add('hello');
+List func(List list,String x) {
+  list.add(x);
   return list;
 }
 
 void main() {
-  print(func(['banana', 'apple']));
+  print(func(['banana', 'apple'],'gozal'));
 }
