@@ -7,13 +7,9 @@
     Returns:
         list: return answer
 */
-List func(
-  List list1,
-) {
-  List answer = [];
-  String str = 'kivi';
-  answer = list1 + [str];
-  return answer;
+List func(List list) {
+  list.add('hello');
+  return list;
 }
 
 void main() {
