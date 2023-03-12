@@ -7,5 +7,15 @@
     Returns:
         list: return answer
 */
+List func(
+  List list1,
+) {
+  List answer = [];
+  String str = 'kivi';
+  answer = list1 + [str];
+  return answer;
+}
 
-void main() {}
+void main() {
+  print(func(['banana', 'apple']));
+}
