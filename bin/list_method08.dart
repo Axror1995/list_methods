@@ -7,4 +7,20 @@
         list: return answer
 */
 
-void main() {}
+List func(List fruits) {
+  int a = fruits.length;
+  int b = 0;
+  List answer = [];
+  while (b < a) {
+    if (fruits.length > b && fruits[b] == 'apple') {
+      fruits.remove(fruits[b]);
+    } else {
+      b += 1;
+    }
+  }
+  return fruits;
+}
+
+void main() {
+  print(func(["apple", "banana", "apple", "apple", "apple"]));
+}

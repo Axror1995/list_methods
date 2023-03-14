@@ -7,5 +7,12 @@
     Returns:
         list: return answer
 */
+List func(List nambers, int i) {
+  List answer = [];
+  answer = [nambers[i]];
+  return answer;
+}
 
-void main() {}
+void main() {
+  print(func([1, 2, 3, 3, 44, 5], 3));
+}
