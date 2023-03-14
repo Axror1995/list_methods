@@ -7,12 +7,12 @@
     Returns:
         list: return answer
 */
-List func(List nambers, int i) {
-  List answer = [];
-  answer = [nambers[i]];
+int func(List nambers, int i) {
+  int answer = 0;
+  answer = nambers[i];
   return answer;
 }
 
 void main() {
-  print(func([1, 2, 3, 3, 44, 5], 3));
+  print(func([1, 2, 3, 3, 44, 5], 1));
 }
