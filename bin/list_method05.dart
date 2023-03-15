@@ -10,9 +10,7 @@
         list: return answer
 */
 List func(List numbers1, List numbers2) {
-  List answer = [];
-  answer = numbers1 + numbers2;
-  return answer;
+  return numbers1 + numbers2;
 }
 
 void main() {
