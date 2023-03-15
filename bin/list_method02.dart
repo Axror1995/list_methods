@@ -10,8 +10,9 @@
 */
 
 List func(List list, String x) {
+  List answer = [];
   int i = 1;
-  list.insert(i, x);
+   list.insert(i, x);
   return list;
 }
 
